@@ -4,3 +4,18 @@
 // styles are for the entire app and not just one component. Additionally, this 
 // file can hold Sass mixins, functions, and placeholder classes to be imported 
 // and used throughout the application.
+
+.alertCancel{
+    .alert-message {
+        color: black; // text color for confirm alerts
+        font-size: 23px;
+    }
+    .alert-wrapper {
+        background-color: white;
+    }
+
+    button {
+        color: black !important;
+        font-size: 23px;
+    }
+}

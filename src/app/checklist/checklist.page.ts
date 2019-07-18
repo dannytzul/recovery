@@ -14,6 +14,7 @@ export class ChecklistPage implements OnInit {
     { val: 'Pain and tenderness along the tibia', isChecked: false }
   ];
 
+
   constructor() { }
 
   ngOnInit() {
