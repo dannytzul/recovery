@@ -1,10 +1,136 @@
-.center{
-    text-align: center;
-  margin-top: 90px 
-  }
- 
-  .left{
-    text-align: left;
-    margin-bottom: 580px
-  }
-  
+.pic{
+  height: 200px;
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ),
+  url("../../assets/doctor.png");
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 75px;
+  font-weight: 300;
+}
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.subtitle{
+  color: #3F9F31;
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: 300;
+}
+.des{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.doctor{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.person{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ),
+  url("../../assets/doctor.png");
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  border: solid 1px transparent;
+  // border-radius: 20px;
+  z-index: 10;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 300;
+}
+.under{
+  position: relative;
+  border-right: solid 1px transparent;
+  border-left: solid 1px transparent;
+  border-bottom: solid 1px transparent;
+  margin-top: -30px;
+  padding-top: 50px;
+  height: 130px;
+  margin-left: 1px;
+  margin-right: 1px;
+  // border-radius: 20px;
+  z-index: -10;
+  -moz-box-shadow: 0px 3px 8px rgb(100,100,100);
+-webkit-box-shadow: 0px 3px 8px rgb(100,100,100);
+box-shadow: 0px 3px 8px rgb(100,100,100);
+}
+.words{
+  display: inline-block;
+  margin-left: 10px;
+}
+.name{
+  color: #3F9F31;
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+}
+.available1{
+  height: 12px;
+  width: 12px;
+  border: solid 1px #3F9F31;
+  border-radius: 50%;
+  background-color: #3F9F31;
+  display: inline-block;
+  margin-top: 5px;
+}
+.available2{
+  height: 12px;
+  width: 12px;
+  border: solid 1px red;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+  margin-top: 5px;
+}
+.phone{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: solid 1px #3F9F31;
+  border-radius: 50%;
+  background-color: #3F9F31;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+ion-icon{
+  color: white;
+  font-size: 38px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.category{
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.name{
+  display: inline-block;
+  color: #3F9F31;
+  font-size: 14px;
+  font-weight: 300;
+}
+.des{
+  display: inline-block;
+  color: black; 
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 5px;
+}

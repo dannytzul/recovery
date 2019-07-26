@@ -1,30 +1,29 @@
 <ion-header>
     <ion-toolbar color="primary">
-        <ion-title>List Of Injuries</ion-title>
+        <ion-title>Recovery</ion-title>
     </ion-toolbar>
 </ion-header>
 <ion-content>
-    <div class="space"></div>
-  <div class="box" routerLink="/checklist">
-         <ion-button class="button" color="primary" ><p>Shin Splint</p> </ion-button>
-       </div>  
-         
- 
- <div class="box" routerLink="/kneechecklist">
-    <ion-button class="button"  color="primary"><p>Runner’s knee</p> </ion-button>
-  </div>
-  <div class="box">
-      <ion-button class="button"  color="primary"><p>Feet aches</p> </ion-button>
-  </div>
-  <div class="box" >
-      <ion-button class="button"  color="primary"><p>Stress fracture</p> </ion-button>
-  </div>
-  <div class="box" >
-      <ion-button class="button"  color="primary"><p>Muscle pull</p> </ion-button>
-  </div>
-  <div class="box" >
-      <ion-button class="button"  color="primary"><p>Achilles tendinopathy</p> </ion-button>
-  </div>
+    <div class="head">Choose Your Injury</div>
+    <div class="container">
+        <div class="box" id="box1" routerLink="/shin-splints">
+            <p class="words">Shin Splints</p>
+        </div>
+        <div class="box" id="box2" routerLink="/knee">
+            <p class="words">Runner's Knee</p>
+        </div>
+        <div class="box" id="box3" routerLink="/aches">
+            <p class="words">Feet Aches</p>
+        </div>
+        <div class="box" id="box4" routerLink="/stress">
+            <p class="words">Stress Fracture</p>
+        </div>
+        <div class="box" id="box5" routerLink="/hamstring">
+            <p class="words">Hamstring Strain</p>
+        </div>
+        <div class="box" id="box6" routerLink="/achilles">
+            <p class="words">Achilles</p>
+        </div>
+    </div>
+
 </ion-content>
-    
-      
